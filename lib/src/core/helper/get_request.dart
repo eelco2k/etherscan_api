@@ -12,6 +12,9 @@ const ETH_API_URLS = {
   'ropsten': 'https://api-ropsten.etherscan.io',
   'kovan': 'https://api-kovan.etherscan.io',
   'rinkeby': 'https://api-rinkeby.etherscan.io',
+  'goerli': 'https://api-goerli.etherscan.io',
+  'sepolia': 'https://api-sepolia.etherscan.io',
+  'holesky': 'https://api-holesky.etherscan.io',
   'homestead': 'https://api.etherscan.io'
 };
 
