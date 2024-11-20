@@ -35,7 +35,7 @@ extension GetRequest on EtherscanAPI {
       final client = Dio(
         BaseOptions(
           baseUrl: chain.chainApiUrl,
-          connectTimeout: timeout?.inMilliseconds,
+          connectTimeout: timeout?.let((ms) => Duration(milliseconds: ms)),
           responseType: ResponseType.json,
         ),
       );
